@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">
+        <h1 id="title">Formulario de encuesta</h1>
+        <p id="description">Encuesta Geek</p>
+        </div>
+        <form id="survey-form">
+          
+          <div class="datos">
+          <label id="name-label" for="name">Nombre</label>
+          <input id="name" for="text" placeholder="Ingresa tu nombre" requeired/>
+           </div>
+          
+          <div  class="datos">
+          <label id="email-label" for="email">Email</label>
+          <input id="email" type="email"placeholder="Ingresa tu email" requeired/>
+          </div>
+          
+          <div  class="datos">
+          <label id="number-label" for="edad">Edad</label>
+          <input id="edad" type="number" placeholder="Ingresa tu edad" min="10"
+                max="99"/>
+          </div>
+          
+          <div  class="form-group">
+            <p>¿Cómo ha sido tu experiencia en la academia?</p>
+          <select id="dropdown" name="satisfaciion" required>
+            <option disabled selected value>Selecciona una opción</option>
+            
+                <option value="maraillosa">Maravillosa</option>
+            
+                <option value="excelente">Excelente</option>
+            
+                <option value="mejorable">Mejorable</option>
+            
+         
+                <option value="otra">Otra</option>
+              </select>
+            
+            </div>
+          <div class="form-group">
+              <p>¿Recomendarias Academia geek?</p>
+              <label>
+                <input
+                  name="recomendacion"
+                  value="definitely"
+                  type="radio"
+                  class="input-radio"
+                  checked
+                />Por supuesto!</label
+              >
+              <label>
+                <input
+                  name="recomendacion"
+                  value="probablemente"
+                  type="radio"
+                  class="input-radio"
+                />Probablemente</label
+              >
+        
+              <label
+                ><input
+                  name="recomendacion"
+                  value="quiza"
+                  type="radio"
+                  class="input-radio"
+                        />Quizás</label>
+            </div>
+          
+          
+           <div class="form-group">
+              <p>
+                ¿con que tipo de materiales de apoyo te sientes mas cómodo?
+              </p>
+        
+              <label
+                ><input
+                  name="preferencia"
+                  value="libros-completos"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Libros completos</label
+              >
+              <label>
+                <input
+                  name="preferencia"
+                  value="videos-largos"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Videos de temas completos</label
+              >
+              <label
+                ><input
+                  name="preferencia"
+                  value="cartilla"
+                  type="checkbox"
+                  class="input-checkbox"
+                />cartilla datos puntuales</label
+              >
+              <label
+                ><input
+                  name="preferencia"
+                  value="retos"
+                  type="checkbox"
+                  class="input-checkbox"
+                />Constantes retos</label
+              >
+              
+            </div>
+          
+           <div class="form-group">
+              <p>¿Tienes alguna sugerencia?</p>
+              <textarea
+                id="comments"
+                class="input-textarea"
+                name="comentario"
+                placeholder="ingresa aquí tu sugerencia"
+              ></textarea>
+            </div>
+              <button type="submit" id="submit" class="submit-button">
+                Submit
+              </button>
+        </form>
+</body>
+</html>

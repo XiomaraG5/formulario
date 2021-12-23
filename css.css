@@ -1,0 +1,83 @@
+body{
+    background: #201726;
+    font-family: Lucida Bright;
+  }
+  
+  .title{
+    text-align: center;
+    color: #fff;
+    
+  }
+  
+  form{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    margin: auto;
+    margin-top: 30px;
+    background: #A6775B;
+    padding: 3%;
+    border-radius: 5px;
+    
+  }
+  
+  
+  .datos label, .datos input{
+   display:block;
+    margin: 2%;
+  }
+  .datos label{
+    font-weight: bold;
+    color: #734040;
+    font-size: 1.1rem;
+  }
+  .datos input{
+    width: 80%;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #8C5C4A;
+    border: 1px solid #734040;
+    box-shadow: 0px 1px 1px #734040 inset;
+    padding: 1%;
+  }
+  .datos input::placeholder{
+    color:#aaa;
+  }
+  .form-group{
+    width:80%;
+    margin: auto;
+  }
+  .form-group p{
+    font-weight: bold;
+    color: #734040;
+    font-size:1.1rem;
+  }
+  .form-group select, textarea{
+    width: 80%;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #8C5C4A;
+    border: 1px solid #734040;
+    box-shadow: 0px 1px 1px #734040 inset;
+    padding: 1%;
+  }
+  .form-group label {
+    display:block;
+    color: #734040;
+    letter-spacing: 1px;
+  }
+  #submit{
+    width:80%;
+    align-self: center;
+    justify-items: center;
+    margin-top: 20px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #201726;
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 1px #734040, 0px 2px 1px #734040, 0px 3px 1px #734040 ;
+    padding: 1%;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
